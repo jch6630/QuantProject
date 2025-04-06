@@ -30,7 +30,7 @@ public class Main {
 	private static final String LOG_ID = UUID.randomUUID().toString();
 	private static final Logger logger = Logger.getLogger(RequestNowStockPrice.class.getName());
 	private static final boolean TR_CHK = false; // true: 모의투자, false: 실투자
-	private static final boolean Run_Check = false; // true: 스케줄 실행, false: 직접 실행
+	private static final boolean Run_Check = true; // true: 스케줄 실행, false: 직접 실행
 
 	public static void main(String[] args) {
 		LocalDate today = LocalDate.now();
